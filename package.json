@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Simple apps written in TypeScript",
   "main": "",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/tomfidos/typescript.git"
@@ -17,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/tomfidos/typescript/issues"
   },
-  "homepage": "https://github.com/tomfidos/typescript#readme"
+  "homepage": "https://github.com/tomfidos/typescript#readme",
+  "dependencies": {
+    "typescript": "^4.0.2"
+  }
 }
