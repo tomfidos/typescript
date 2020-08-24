@@ -1,0 +1,21 @@
+{
+  "name": "typescriptProjects",
+  "version": "1.0.0",
+  "description": "Simple apps written in TypeScript",
+  "main": "",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tomfidos/typescript.git"
+  },
+  "keywords": [
+    "calculator"
+  ],
+  "author": "Tomasz Fidos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomfidos/typescript/issues"
+  },
+  "homepage": "https://github.com/tomfidos/typescript#readme"
+}
