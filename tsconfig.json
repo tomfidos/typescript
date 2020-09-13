@@ -1,6 +1,6 @@
 {
-    "complierOptions": {
-        "outDir": "./build",
+    "compilerOptions": {
+        "outDir": "build",
         "allowJs": false,
         "target": "es6",
         "noImplicitReturns": true,
@@ -13,7 +13,7 @@
         "noImplicitThis": true,
         "module": "commonjs",
         "jsx": "preserve",
-        "lib": ["ES2015"],
+        "lib": ["ES2015", "ES2015.Promise", "DOM"],
         "noEmit": false,
         "rootDir": ".",
         "sourceMap": true,
@@ -29,6 +29,6 @@
         "noUnusedParameters": true,
         "noResolve": false
     },
-    "include": ["./src/**/*"],
-    "exclude": ["node_modules", "**/*.spec.ts"]
+    "include": ["**/*.ts"],
+    "exclude": ["**/*.spec.ts"]
 }
